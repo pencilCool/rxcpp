@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+                 use rxcpp ===== https://github.com/ReactiveX/RxCpp    
+                 with cocoapods      
+  DESC
 
   s.homepage         = 'https://github.com/pencilCool/rxcpp'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pencilCool' => 'yhtangcoder@gmail.com' }
   s.source           = { :git => 'https://github.com/pencilCool/rxcpp.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'rxcpp/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'rxcpp' => ['rxcpp/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files  = 'rxcpp/**/**.{h,m,hpp,cpp}'
+  s.header_mappings_dir = 'rxcpp'
+  s.libraries = 'c++'
 end

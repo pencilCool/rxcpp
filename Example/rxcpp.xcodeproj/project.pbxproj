@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C464C4DC0DCA221FB931B1C /* Pods_rxcpp_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E39A8EDDDC4E9A31769640B /* Pods_rxcpp_Tests.framework */; };
+		B35A63A624E644890015871D /* RXCppTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = B35A63A524E644890015871D /* RXCppTest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		6003F595195388D20070C39A /* rxcpp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rxcpp-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* rxcpp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rxcpp-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* RXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXViewController.h; sourceTree = "<group>"; };
@@ -64,9 +64,11 @@
 		7E39A8EDDDC4E9A31769640B /* Pods_rxcpp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxcpp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E1EDEF87AF2D0B8DE287EF1 /* Pods-rxcpp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxcpp_Example.release.xcconfig"; path = "Target Support Files/Pods-rxcpp_Example/Pods-rxcpp_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A71ED91ABA273748A2F336B3 /* rxcpp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rxcpp.podspec; path = ../rxcpp.podspec; sourceTree = "<group>"; };
-		B2454752A61358C597DFA86D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B853B9490D14F275E0B7F8B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A71ED91ABA273748A2F336B3 /* rxcpp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rxcpp.podspec; path = ../rxcpp.podspec; sourceTree = "<group>"; };
+		B2454752A61358C597DFA86D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B35A63A424E644890015871D /* RXCppTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXCppTest.h; sourceTree = "<group>"; };
+		B35A63A524E644890015871D /* RXCppTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RXCppTest.mm; sourceTree = "<group>"; };
+		B853B9490D14F275E0B7F8B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RXViewController.h */,
 				6003F5A6195388D20070C39A /* RXViewController.m */,
+				B35A63A424E644890015871D /* RXCppTest.h */,
+				B35A63A524E644890015871D /* RXCppTest.mm */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -151,7 +155,6 @@
 				6003F595195388D20070C39A /* rxcpp-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* rxcpp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,7 +196,6 @@
 				777D92DD5EE770910848C076 /* Pods-rxcpp_Tests.debug.xcconfig */,
 				79B07AC76E1DA75463CDC790 /* Pods-rxcpp_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +210,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C717DF868885763F74F2F798 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,28 +319,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C717DF868885763F74F2F798 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rxcpp_Example/Pods-rxcpp_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/rxcpp/rxcpp.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/rxcpp.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rxcpp_Example/Pods-rxcpp_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F6A5819AD32B81C51659A596 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,6 +351,7 @@
 				6003F59E195388D20070C39A /* RXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B35A63A624E644890015871D /* RXCppTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "rxcpp/rxcpp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "rxcpp/rxcpp-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -515,7 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "rxcpp/rxcpp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "rxcpp/rxcpp-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

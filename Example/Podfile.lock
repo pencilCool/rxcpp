@@ -1,0 +1,16 @@
+PODS:
+  - rxcpp (0.1.0)
+
+DEPENDENCIES:
+  - rxcpp (from `../`)
+
+EXTERNAL SOURCES:
+  rxcpp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  rxcpp: abd3e5342aa34b644c662a4e48e797e693b7f01e
+
+PODFILE CHECKSUM: 01face00ded72c466d049a2b09c88569dbf6d208
+
+COCOAPODS: 1.6.1
